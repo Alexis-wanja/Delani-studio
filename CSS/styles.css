@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    background-image: url(../Images/background.jpg);
+    text-align: center;
+    color: white;
+}
