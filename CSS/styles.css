@@ -16,8 +16,32 @@
     font-size: small;
     font-family: 'Yantramanav', sans-serif;
   }
-  p {
+  p1 {
       color: black;
       text-align: center;
-      font-size: medium;
+      font-size: small;
   }
+
+.MouseClick {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.services {
+    background-image: url(../Images/s_image.jpg);
+    text-align: center;
+    background-size: cover;
+    color: white;
+    font-size: small;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+h5 {
+    color: black;
+    text-align: center;
+}
+
+.hide{
+    color: black;
+}
