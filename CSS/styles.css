@@ -14,7 +14,7 @@
     text-align: center;
     color: black;
     font-size: small;
-    font-family: 'Yantramanav', sans-serif;
+    font-family: sans-serif;
   }
   p1 {
       color: black;
@@ -43,5 +43,5 @@ h5 {
 }
 
 .hide{
-    color: black;
+    display: none;
 }
