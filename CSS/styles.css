@@ -43,6 +43,31 @@ h5 {
 }
 
 .container-fluid {
-    background-image: url(../Images/c_image.jpg);
     text-align: center;
+    background-image: url(../Images/c_image.jpg);
 }
+
+#form input{
+    background-color: transparent; 
+  }
+
+  #name{
+    color :white;
+  }
+
+  #email{
+    color: white;
+  }
+
+  #form textarea{
+    background-color: transparent;
+    color: white;
+  }
+  
+  #email::placeholder{
+    color: white;
+  }
+  
+  #name::placeholder{
+    color: white;
+  }
