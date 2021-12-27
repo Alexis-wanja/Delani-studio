@@ -40,130 +40,135 @@
         </div>
         <br>
         <div class="whatWeDo">
-              <h5>WHAT WE DO</h5><br>
-              <div class="row">
-                <div class="col-md-4" id="design">
-                  <div class="hide-design-image">
-                    <img src="./Images/design_icon.png"><br><br>
-                  </div>
-                  <p1>DESIGN</p1><br>
-                  <p1> Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p1>
+          <h5>WHAT WE DO</h5><br>
+          <div class="row">
+            <div class="col-md-4" id="design">
+              <div class="hide-design-image">
+                <img src="./Images/design_icon.png"><br><br>
+              </div>
+              <p1>DESIGN</p1><br>
+              <p1 class="hide" id="design-showing"></p1>
+              <p1> Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p1>
+            </div>
+            
+            <div class="col-md-4" id="development">
+                <div class="hide-development-image">
+                    <img src="./Images/dev_icon.png"><br><br>
+                </div> 
+                <p1>DEVELOPMENT</p1><br>
+                <p1 class="hide" id="development-showing">
+                All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p1>
+            </div>
+
+            <div class="col-md-4" id="productManagement">
+                <div class="hide-product-management">
+                    <img src="./Images/product_icon.png"><br><br>
                 </div>
-                
-                <div class="col-md-4" id="development">
-                    <div class="hide-development-image">
-                        <img src="./Images/dev_icon.png"><br><br>
-                    </div> 
-                    <p1>DEVELOPMENT</p1><br>
-                    <p1 class="hide" id="development-showing">
-                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p1>
-                </div>
+                <p1>PRODUCT MANAGEMENT</p1><br>
+                <p1 class="hide" id="product-management-showing">
+                Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                This iterative process allows for changes as business requirements evolve.</p1>
+            </div>  
+    </div><br>
 
-                <div class="col-md-4" id="productManagement">
-                    <div class="hide-product-management">
-                        <img src="./Images/product_icon.png"><br><br>
-                    </div>
-                    <p1>PRODUCT MANAGEMENT</p1><br>
-                    <p1 class="hide" id="product-management-showing">
-                    Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-                    This iterative process allows for changes as business requirements evolve.</p1>
-                </div>  
-        </div><br>
-
-        <h5>PORTFOLIO</h5><br>
-        <div class="row">
-        <div class="col-md-3 work1">
-        <img class="w-100" src="./Images/work4.jpg">
-        <div class="work1-overlay">
-        <div class="wonger text-white">
-        </div>
-        </div>
-        </div>
-
-        <div class="col-md-3 work2">
-        <img class="w-100" src="./Images/work3.jpg">
-        <div class="work2-overlay">
-        <div class="wonger text-white">
-        </div>
-        </div>
-        </div>
-
-        <div class="col-md-3 work3">
-        <img class="w-100" src="./Images/work2.jpg">
-        <div class="work3-overlay">
-        <div class="wonger text-white">
-        </div>
-        </div>
-        </div>
-
-        <div class="col-md-3 work4">
-        <img class="w-100" src="./Images/work1.jpg"> 
-        <div class="work4-overlay">
-        <div class="wonger text-white">
-        </div>
-        </div>
-        </div>
-  
-        <div class="col-md-3 wprk5">
-        <img class="w-100" src="./Images/work5.jpg">
-        <div class="work5-overlay">
-        <div class="wonger text-white">
-        </div>
-        </div>
-        </div>
-      
-        <div class="col-md-3 work6">
-        <img class="w-100" src="./Images/work6.jpg">
-        <div class="work6-overlay">
-        <div class="wonger text-white">
-        </div>
-        </div>
-        </div>
-
-        <div class="col-md-3 work7">
-        <img class="w-100" src="./Images/work7.jpg">
-        <div class="work7-overlay">
-        <div class="wonger text-white">
-        </div>
-        </div>
-        </div>
-
-        <div class="col-md-3 work8">
-        <img class="w-100 work-image" src="images/work8.jpg" alt="work image">
-        <div class="work8-overlay">
-        <div class="wonger text-white">
-        </div>
-        </div>
-        </div>
-  </div><br><br>
-
-  <div class="container-fluid" id="form">
-    <h2 class="pt-5">CONTACT US</h2>
-    <div class="row" id="contact-info-input">
-        <div class="col-6">
-          <div class="form-group">
-            <label for="name"></label>
-            <input type="text" name="FNAME" class="required form-control" id="mce-FNAME name" placeholder="Name">
-
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="form-group">
-            <label for="email"></label>
-            <input type="text" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL email" placeholder="Email">
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="form-group">
-          <label for="message"></label>
-          <textarea type="text" name="MESSAGE" class="required form-control" id="mce-MESSAGE comment" cols="30" rows="10" placeholder="input message..."></textarea>
-        </div>
+    <h5>PORTFOLIO</h5><br>
+    <div class="row">
+    <div class="col-md-3 work1">
+    <img class="w-100" src="./Images/work4.jpg">
+    <div class="work1-overlay">
+    <div class="Hover">
     </div>
-    <div class="submit"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-   </form>
+    </div>
+    </div>
 
+    <div class="col-md-3 work2">
+    <img class="w-100" src="./Images/work3.jpg">
+    <div class="work2-overlay">
+    <div class="Hover">
+    </div>
+    </div>
+    </div>
+
+    <div class="col-md-3 work3">
+    <img class="w-100" src="./Images/work2.jpg">
+    <div class="work3-overlay">
+    <div class="Hover">
+    </div>
+    </div>
+    </div>
+
+    <div class="col-md-3 work4">
+    <img class="w-100" src="./Images/work1.jpg"> 
+    <div class="work4-overlay">
+    <div class="Hover">
+    </div>
+    </div>
+    </div>
+
+    <div class="col-md-3 wprk5">
+    <img class="w-100" src="./Images/work5.jpg">
+    <div class="work5-overlay">
+    <div class="Hover">
+    </div>
+    </div>
+    </div>
+  
+    <div class="col-md-3 work6">
+    <img class="w-100" src="./Images/work6.jpg">
+    <div class="work6-overlay">
+    <div class="Hover">
+    </div>
+    </div>
+    </div>
+
+    <div class="col-md-3 work7">
+    <img class="w-100" src="./Images/work7.jpg">
+    <div class="work7-overlay">
+    <div class="Hover">
+    </div>
+    </div>
+    </div>
+
+    <div class="col-md-3 work8">
+    <img class="w-100 work-image" src="images/work8.jpg" alt="work image">
+    <div class="work8-overlay">
+    <div class="Hover">
+    </div>
+    </div>
+    </div>
+</div><br><br>
+
+<div class="container-fluid" id="form">
+<h2 class="pt-5">CONTACT US</h2>
+<div class="row" id="contact-info-input">
+    <div class="col-6">
+      <div class="form-group">
+        <label for="name"></label>
+        <input type="text" name="FNAME" class="required form-control" id="mce-FNAME name" placeholder="Name">
+
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="form-group">
+        <label for="email"></label>
+        <input type="text" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL email" placeholder="Email">
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-group">
+      <label for="message"></label>
+      <textarea type="text" name="MESSAGE" class="required form-control" id="mce-MESSAGE comment" cols="30" rows="10" placeholder="input message..."></textarea>
+    </div>
+</div>
+<div class="submit"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+
+        
+      <script src="js/jquery-3.4.1.js"></script>
+      </body>
+      </html>
    <script src="script.js"></script> 
  </body>
 </html>
