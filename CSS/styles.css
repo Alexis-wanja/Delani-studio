@@ -42,6 +42,10 @@ h5 {
     text-align: center;
 }
 
+.hide{
+    display:none;
+  }
+
 .container-fluid {
     text-align: center;
     background-image: url(../Images/c_image.jpg);
@@ -51,23 +55,24 @@ h5 {
     background-color: transparent; 
   }
 
-  #name{
+#name{
     color :white;
   }
 
-  #email{
+#email{
     color: white;
   }
 
-  #form textarea{
+#form textarea{
     background-color: transparent;
     color: white;
   }
-  
-  #email::placeholder{
+
+#email::placeholder{
     color: white;
   }
   
-  #name::placeholder{
+#name::placeholder{
     color: white;
   }
+
