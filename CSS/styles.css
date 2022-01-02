@@ -72,6 +72,10 @@ h6 {color: black;
     background-image: url(../Images/c_image.jpg);
 }
 
+.card-deck {
+  padding: 1% 4%;
+}
+
 #form input{
     background-color: transparent; 
   }
