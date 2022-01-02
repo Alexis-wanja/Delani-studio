@@ -76,6 +76,29 @@ h6 {color: black;
   padding: 1% 4%;
 }
 
+.card {
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+.card-1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.582);
+  cursor: pointer;
+  display: none;
+  font-size: 25px;
+  padding-top: 30%;
+  min-height: 100%;
+}
+
 #form input{
     background-color: transparent; 
   }
