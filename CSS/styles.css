@@ -101,13 +101,14 @@ h6 {color: black;
 
 #form input{
     background-color: transparent; 
+    align-items: center;
   }
 
-#name{
-    color :white;
-  }
+#Name{
+  color: white;
+}
 
-#email{
+#Email{
     color: white;
   }
 
