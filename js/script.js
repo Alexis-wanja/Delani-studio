@@ -1,6 +1,6 @@
 $('.main').click(function () {
-  $(this).card('.hide').slideToggle(1200);
-  $(this).card('.show').toggle(1500);
+  $(this).children('.hide').slideToggle(1200);
+  $(this).children('.show').toggle(1500);
 });
 
 
@@ -24,5 +24,5 @@ $("button").on('click', function () {
 });
 
 $(".card").hover(function () {
-  $(this).card(".card-1").fadeToggle(1000, "linear");
+  $(this).children(".card-1").fadeToggle(1000, "linear");
 });

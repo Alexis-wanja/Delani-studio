@@ -85,6 +85,8 @@ h6 {color: black;
   border: 2px solid white;
   margin-left: 10%;
   margin-top: 10%;
+  overflow: hidden;
+  transform: scale(1.2)
 }
 
 .card-1 {
@@ -93,11 +95,12 @@ h6 {color: black;
   text-align: center;
   background: rgba(7, 7, 7, 0.63);
   cursor: pointer;
-  display: block;
   font-size: 25px;
-  padding-top: 30%;
+  display: none;
   min-height: 100%;
   color: white;
+  font-size: 25px;
+  padding-top: 30%;
 }
 
 #form input{
