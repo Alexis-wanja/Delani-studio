@@ -10,6 +10,7 @@ body{
     background-image: url(../Images/background.jpg);
     text-align: center;
     color: white;
+    font-family: sans-serif;
 }
 
 .aboutUs {
