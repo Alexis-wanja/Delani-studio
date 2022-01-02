@@ -4,7 +4,7 @@ body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} 
 
 .intro{
     background-image: url(../Images/background.jpg);
@@ -94,6 +94,7 @@ h6 {color: black;
   font-size: 25px;
   padding-top: 30%;
   min-height: 100%;
+  color: white;
 }
 
 #form input{
