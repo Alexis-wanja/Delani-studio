@@ -1,20 +1,14 @@
-* {
+.content{
+  overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-    color:white;
 }
 
 .intro{
     background-image: url(../Images/background.jpg);
     text-align: center;
     color: white;
-    width: 100%;
 }
 
 .aboutUs {
@@ -23,6 +17,7 @@ body{
     font-size: small;
     font-family: sans-serif;
   }
+
   p1 {
       color: black;
       text-align: center;
@@ -38,7 +33,6 @@ body{
 .services {
     background-image: url(../Images/s_image.jpg);
     text-align: center;
-    background-size: cover;
     color: white;
     font-size: small;
     font-family: 'Yantramanav', sans-serif;
@@ -70,6 +64,7 @@ h6 {color: black;
 .container-fluid {
     text-align: center;
     background-image: url(../Images/c_image.jpg);
+    color: white;
 }
 
 .card-deck {
