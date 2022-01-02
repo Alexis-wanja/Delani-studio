@@ -80,8 +80,11 @@ h6 {color: black;
 }
 
 .card:hover img {
-  transform: scale(1.2);
-  transition: all 0.3s ease;
+  width: 80%;
+  height: 80%;
+  border: 2px solid white;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 .card-1 {
@@ -90,7 +93,7 @@ h6 {color: black;
   text-align: center;
   background: rgba(7, 7, 7, 0.63);
   cursor: pointer;
-  display: none;
+  display: block;
   font-size: 25px;
   padding-top: 30%;
   min-height: 100%;
@@ -113,15 +116,7 @@ h6 {color: black;
 #form textarea{
     background-color: transparent;
     color: white;
-  }
-
-#email::placeholder{
-    color: white;
-  }
-  
-#name::placeholder{
-    color: white;
-  }
+}
 
   .Footer {
     color: black;
